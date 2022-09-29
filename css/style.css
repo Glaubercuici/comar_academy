@@ -1,0 +1,28 @@
+* {
+  counter-reset:li; /* Inicia o contador */      
+  margin-left:0; /* Remove margin padrão */      
+  padding-left:0
+ 
+
+
+}
+
+
+
+.cabeca {
+height: 64 px;
+width: 100%;
+background-color: white;
+position: fixed;
+display:flex;
+align-items: center;
+padding-left: 24px;
+z-index: 1;
+
+}
+
+.navbar {
+    padding-right: 32px;
+    justify-content: right;
+}
+
