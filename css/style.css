@@ -6,23 +6,44 @@
 
 
 }
+body {
+  width: 100%;
+  height: 100%;
+}
+
 
 
 
 .cabeca {
+  top: 0px;
 height: 64 px;
 width: 100%;
 background-color: white;
 position: fixed;
 display:flex;
 align-items: center;
+justify-content: space-around;
 padding-left: 24px;
 z-index: 1;
+margin: 0  auto
 
 }
-
-.navbar {
-    padding-right: 32px;
-    justify-content: right;
+.logo{
+  display: flex;
+  flex-direction: row;
 }
 
+.firt_sesh {
+  width: 100%;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.img_one {
+  width: 60%;
+}
