@@ -12,29 +12,15 @@ body {
 }
 
 
-
-
-.cabeca {
-  top: 0px;
-height: 64 px;
-width: 100%;
-background-color: white;
-position: fixed;
-display:flex;
-align-items: center;
-justify-content: space-around;
-padding-left: 24px;
-z-index: 1;
-margin: 0  auto
-
-}
 .logo{
   display: flex;
   flex-direction: row;
 }
 
 .firt_sesh {
-  width: 100%;
+  width: 1200px;
+  height: 80vh;
+  background-color: rgb(182, 180, 180);
   margin-top: 64px;
   display: flex;
   flex-direction: row;
@@ -44,6 +30,16 @@ margin: 0  auto
   gap: 20px;
 }
 
-.img_one {
-  width: 60%;
+.card-group {
+gap:5px;
+
 }
+
+.about {
+  width: 100%;
+  height: 400px;
+}
+
+
+
+
